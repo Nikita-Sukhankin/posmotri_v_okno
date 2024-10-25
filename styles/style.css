@@ -83,6 +83,7 @@ ol {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #000000 grey;
+  position: relative;
 }
 
 .content__list-item {
