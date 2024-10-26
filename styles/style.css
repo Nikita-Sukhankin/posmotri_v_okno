@@ -78,11 +78,13 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
+  max-width: 400px;
   height: 298px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #000000 grey;
   position: relative;
+  overflow-x: hidden;
 }
 
 .content__list-item:not(:last-of-type) {
@@ -132,11 +134,11 @@ ol {
   color: #fff;
 }
 .content__video-card-description-container {
-  width: 200px;
+  min-width: 200px;
 }
 
 img {
-  width: 194px;
+  min-width: 194px;
   height: 103px;
   object-fit: cover;
 }
@@ -228,6 +230,7 @@ img {
   align-items: center;
   width: fit-content;
   padding: 2px;
+  gap: 5px;
 }
 
 .search-form__checkbox-list {
@@ -275,10 +278,6 @@ img {
 
 .search-form__label-text:focus-visible {
   outline: 1px solid #fff;
-}
-
-.search-form__label {
-  gap: 5px;
 }
 
 .search-form__label-text:hover {
