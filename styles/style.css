@@ -53,7 +53,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 15px;
+  gap: 23px;
 }
 
 .result__video-container {
@@ -70,7 +70,7 @@ ol {
 
 .search-form {
   display: flex;
-  gap: 35px;
+  gap: 37px;
   align-items: end;
   width: 711px;
 }
@@ -92,7 +92,6 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
   height: 100%;
   gap: 20px;
 }
@@ -233,7 +232,7 @@ img {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 13px;
+  gap: 11px;
   justify-content: center;
   align-items: center;
 }
@@ -290,7 +289,7 @@ img {
 }
 
 .search-form__textfield:focus-visible {
-  border: none;
+  outline: none;
 }
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
