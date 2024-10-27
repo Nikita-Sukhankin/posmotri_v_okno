@@ -53,7 +53,7 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  gap: 23px;
+  gap: 15px;
 }
 
 .result__video-container {
@@ -94,6 +94,7 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
+  width: 100%;
   height: 100%;
   gap: 20px;
 }
@@ -287,19 +288,11 @@ img {
   text-underline-offset: 3px;
 }
 
-.search-form__textfield:focus-visible {
-  outline: none;
-}
-
-.search-form__label:has(.search-form__textfield:focus-visible) {
-  outline: 1px solid #FFFFFF;
-}
-
 .search-form__textfield:focus {
   outline: none;
 }
 
-.search-form__label:has(:focus-visible) {
+.search-form__label:has(:focus-visible:not(:active)) {
   outline: 1px solid #fff;
 }
 
